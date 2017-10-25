@@ -1,0 +1,28 @@
+var nodes_data =  [
+    {"name": "Lillian", "sex": "F"},
+    {"name": "Gordon", "sex": "M"},
+    {"name": "Sylvester", "sex": "M"},
+    {"name": "Mary", "sex": "F"},
+  
+    ]
+//Sample links data 
+//type: A for Ally, E for Enemy
+var links_data = [
+	{"source": "Sylvester", "target": "Gordon", "type":"A" },
+    {"source": "Sylvester", "target": "Lillian", "type":"A" },
+    {"source": "Sylvester", "target": "Lillian", "type":"A"},
+    {"source": "Sylvester", "target": "Lillian", "type":"A"},
+    {"source": "Sylvester", "target": "Sylvester", "type":"A"},
+    {"source": "Sylvester", "target": "Sylvester", "type":"A"},
+    {"source": "Helen", "target": "Gordon", "type":"A"},
+    {"source": "Mary", "target": "Lillian", "type":"A"},
+    {"source": "Ashton", "target": "Mary", "type":"A"},
+    {"source": "Duncan", "target": "Gordon", "type":"A"},
+    {"source": "Gordon", "target": "Gordon", "type":"A"},
+    {"source": "Sylvester", "target": "Sylvester", "type":"E"},
+    {"source": "Fray", "target": "Sylvester", "type":"A"},
+    {"source": "Fray", "target": "Mary", "type":"A"},
+    {"source": "Fray", "target": "Mary", "type":"A"}
+    
+    
+]
